@@ -1,0 +1,26 @@
+{
+  "name": "Testing-Portfolio-Pages",
+  "version": "1.0.0",
+  "description": "You are going to use jQuery to manipulate a div somewhere you want to display the markdown content. Once you get the *result* from md.render(), that will be actual HTML that you can just append to the DOM.",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexSamalot19/Testing-Portfolio-Pages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexSamalot19/Testing-Portfolio-Pages/issues"
+  },
+  "homepage": "https://github.com/alexSamalot19/Testing-Portfolio-Pages#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "markdown-it": "^10.0.0"
+  }
+}
